@@ -1,0 +1,14 @@
+C:\Practice\Tests\WorldNomadsTests\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Practice\Tests\WorldNomadsTests\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\Practice\Tests\WorldNomadsTests\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll
+C:\Practice\Tests\WorldNomadsTests\bin\Debug\netcoreapp1.1\WorldNomadsTests.deps.json
+C:\Practice\Tests\WorldNomadsTests\bin\Debug\netcoreapp1.1\WorldNomadsTests.runtimeconfig.json
+C:\Practice\Tests\WorldNomadsTests\bin\Debug\netcoreapp1.1\WorldNomadsTests.runtimeconfig.dev.json
+C:\Practice\Tests\WorldNomadsTests\bin\Debug\netcoreapp1.1\WorldNomadsTests.dll
+C:\Practice\Tests\WorldNomadsTests\bin\Debug\netcoreapp1.1\WorldNomadsTests.pdb
+C:\Practice\Tests\WorldNomadsTests\bin\Debug\netcoreapp1.1\WorldNomads.dll
+C:\Practice\Tests\WorldNomadsTests\bin\Debug\netcoreapp1.1\WorldNomads.pdb
+C:\Practice\Tests\WorldNomadsTests\obj\Debug\netcoreapp1.1\WorldNomadsTests.csprojResolveAssemblyReference.cache
+C:\Practice\Tests\WorldNomadsTests\obj\Debug\netcoreapp1.1\WorldNomadsTests.AssemblyInfo.cs
+C:\Practice\Tests\WorldNomadsTests\obj\Debug\netcoreapp1.1\WorldNomadsTests.dll
+C:\Practice\Tests\WorldNomadsTests\obj\Debug\netcoreapp1.1\WorldNomadsTests.pdb

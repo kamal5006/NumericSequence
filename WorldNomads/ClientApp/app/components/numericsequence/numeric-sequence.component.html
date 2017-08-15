@@ -1,0 +1,65 @@
+<div class="container">
+    <h1>Numeric Sequence Calculator</h1>
+
+    <p>This page will let you get the numeric sequences of a positive number. Please enter a positive number in the number field to get the below sequences:</p>
+    <ul>
+        <li>All positive numbers less than or equal to the entered number</li>
+        <li>All odd positive numbers less than or equal to the entered number</li>
+        <li>All even positive numbers less than or equal to the entered number</li>
+        <li>All positive numbers less than or equal to the entered number except for multiples of 3, 5 and 3&5 where the letter C,E and Z will be shown respectively</li>
+        <li>All fibonacci numbers less than or equal to the entered number</li>
+    </ul>
+
+    <div class="form-group">
+        <label for="num">Number</label>
+        <input [(ngModel)]="num" class="form-control" id="num">
+
+        <div *ngIf="num?.length<1" class="alert alert-danger">
+            Number is required.
+        </div>
+
+        <div *ngIf="isInvalid && num?.length>0" class="alert alert-danger">
+            Invaid number
+        </div>
+
+    </div>
+    <button (click)="getNumericSequence()"
+            [disabled]="isInvalid || num?.length<0" class="btn btn-default">
+        Submit
+    </button>
+    
+    <h1>Numeric Sequence</h1>
+    <div class="row">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-9"></div>
+    </div>
+  
+    <table class="table table-striped">
+        <thead><tr> <th>Sequence Name</th> <th>Sequence Values</th> </tr></thead>
+        <tbody>
+        <tr>
+          <td>All numbers</td>
+          <td>[<span *ngFor="let n of numbericSequence?.allNumbers;let last=last">{{n}} {{last?'':','}} </span> ]</td>
+        </tr>
+        <tr>
+          <td>Odd numbers</td>
+          <td>[<span *ngFor="let n of numbericSequence?.oddNumbers;let last=last">{{n}} {{last?'':','}} </span> ]</td>
+        </tr>
+        <tr>
+          <td>Even numbers</td>
+          <td>[<span *ngFor="let n of numbericSequence?.evenNumbers;let last=last">{{n}} {{last?'':','}} </span> ]</td>
+        </tr>
+        <tr>
+          <td>All numbers except</td>
+          <td>[<span *ngFor="let n of numbericSequence?.allNumbersExcept ;let last=last">{{n}} {{last?'':','}} </span> ]</td>
+        </tr>
+        <tr>
+          <td>Fibonacci numbers</td>
+          <td>[<span *ngFor="let n of numbericSequence?.fibonacciNumbers ;let last=last">{{n}} {{last?'':','}} </span> ]</td>
+        </tr>
+
+        </tbody>
+    </table>
+   
+
+</div>
