@@ -1,5 +1,5 @@
 # Numeric Sequence Calculator
-###### Please follow the below steps to run the project
+###### This project is built using Visual Studio 2017 with asp.net core, angular 4 and xunit. Please follow the below steps to run the project
 * Clone the source code to local disk
 * Open command prompt
 * Navigate to the WorldNomads folder and then run
